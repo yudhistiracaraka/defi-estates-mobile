@@ -136,6 +136,12 @@ No live backend or blockchain integration is required for this mobile assessment
 flutter pub get
 ```
 
+### Run the app
+
+```bash
+flutter run
+```
+
 If using VS Code, a launch configuration is already included in:
 
 ```text
@@ -144,6 +150,12 @@ If using VS Code, a launch configuration is already included in:
 
 So the app can be started directly from **Run and Debug**.
 
+## Validation
+
+Verified with:
+
+- `flutter analyze`
+- `flutter test`
 
 ## Notes
 
@@ -160,4 +172,3 @@ This repository is intended as a technical assessment submission and demonstrati
 - Clean project organization
 - Reusable component design
 - State management with Riverpod
-
